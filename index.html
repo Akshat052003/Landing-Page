@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo" style="--i:1;">FOOD <span>HUB</span></a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="nav-links">
+            <a href="#home" class="active" style="--i:1;">Home</a>
+            <a href="#special" class="active" style="--i:2;">Special</a>
+            <a href="#chef" class="active" style="-i:3;">Chef</a>
+            <a href="#clients" class="active" style="--i:4;">Clients</a>
+            <a href="#contact" class="active" style="--i:5;">Contact Us</a>
+
+        </nav>
+        <div class="bag-btn">
+            <button class="btn"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1 style="--i:8;">Meet , Eat & Enjoy The <span>True Taste.</span></h1>
+            <p style="--i:9;" class="home-description">Discover the true essence of culinary delight as you meet, eat, and
+                savor the authentic flavors that define our passion for food.</p>
+                <div style="--i:10;" class="home-btn">
+                    <button class="btn">Get started</button>
+                </div>
+        </div>
+        <div style="--i:10;" class="home-img">
+            <img src="./images/header.png" alt="home-img">
+        </div>
+    </section>
+    <section class="special" id="special">
+        <h2 class="special-heading">Our Special Dish</h2>
+        <p class="special-desc"> Each dish promises an unforgettable dining experience, blending
+        innovation with tradition to delight your senses.</p>
+        <div class="special-grid">
+            <div class="special-card">
+                <img src="images/special-1.png" alt="special1">
+                <h4>Chicken Veg Curry</h4>
+                <p>
+                  Diced chicken simmered in aromatic curry sauce with mixed veggies
+                  like potatoes, cauliflower, and beans for a hearty, flavorful dish.
+                </p>
+                <div class="special-ratings">
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                </div>
+                <div class="special-footer">
+                    <p class="price">$12.80</p>
+                    <button class="btn">Add to cart</button>
+                </div>
+            </div>
+            <div class="special-card">
+                <img src="images/special-2.png" alt="special1">
+                <h4>Chicken Veg Stir-Fry</h4>
+                <p>
+                    Tender chicken strips wok-tossed with a colorful array of fresh vegetables in a flavorful blend of spices and sauces and much more awesomeness.
+                </p>
+                <div class="special-ratings">
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                </div>
+                <div class="special-footer">
+                    <p class="price">$18.50</p>
+                    <button class="btn">Add to cart</button>
+                </div>
+            </div>
+            <div class="special-card">
+                <img src="images/special-3.png" alt="special1">
+                <h4>Chicken Pasta</h4>
+                <p>
+                    Al dente pasta tossed with chicken strips and a mix of vibrant vegetables in a creamy garlic herb sauce, offering a delightful pasta experience.
+                </p>
+                <div class="special-ratings">
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                </div>
+                <div class="special-footer">
+                    <p class="price">$15.50</p>
+                    <button class="btn">Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="chef" id="chef">
+        <div class="chef-container">
+            <div class="chef-content">
+                <h2 class="chef-heading" style="--i:8;">Cooked By The Best Chefs In The World</h2>
+                <p class="chef-description" style="--i:9;">
+                  Experience culinary excellence crafted by master chefs from around
+                  the globe. Our team of culinary virtuosos brings together expertise,
+                  innovation, and passion to create unforgettable dining experiences
+                  that redefine gastronomy.
+                </p>
+                <ul class="chef-list">
+                    <li style="--i:10;"><span><i class="fa-solid fa-square-check"></i></span>
+                        Savour culinary brilliance from master chefs worldwide.</li>
+                    <li style="--i:11;"><span><i class="fa-solid fa-square-check"></i></span>
+                        Experience innovative creations with attention to detail.</li>
+                    <li style="--i:12;"><span><i class="fa-solid fa-square-check"></i></span>
+                        Enjoy dishes crafted with an unwavering passion for perfection.</li>
+                </ul>
+            </div>
+            <div class="chef-image">
+                <img src="images/chef.png" alt="chef" class="chef-image"  style="--i:13;">
+            </div>
+        </div>
+        <img src="images/topping.png" alt="topping" class="chef-bg">
+    </section>
+    <section class="clients" id="clients">
+        <h2 class="client-heading">What Our Customers Are Saying</h2>
+        <p class="client-description"> Discover firsthand experiences and testimonials from our valued patrons.
+            Explore the feedback and reviews that showcase our commitment to
+            quality, service, and customer satisfaction.
+        </p>
+        <div class="client-swiper">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="client-card">
+                            <p>
+                                I always turn to Food Hub for a quick and delicious meal. Their
+                                efficient service and mouthwatering options never disappoint!
+                            </p>
+                            <img src="images/client-1.jpg" alt="client1">
+                            <h4>Dewis Lee</h4>
+                            <h5>Food Executive</h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-card">
+                            <p>
+                                Food Hub's culinary expertise never fails to impress! Every
+                                dish is a masterpiece, bursting with flavor and freshness.
+                            </p>
+                            <img src="images/client-2.jpg" alt="client1">
+                            <h4>Emily Johnson</h4>
+                            <h5>Food Blogger</h5>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-card">
+                            <p>
+                                Food Hub has become my go-to for all my catering needs. Their
+                                attention to detail and exceptional customer service make
+                                every event a success.
+                            </p>
+                            <img src="images/client-3.jpg" alt="client1">
+                            <h4>Michael John</h4>
+                            <h5>Event Planner</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="footer-container">
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <a href="#">Food <span>Hub</span></a>
+                </div>
+                <div class="footer-desc">
+                    <p>  Embark on a gastronomic journey with Food Hub, where every bite tells
+                        a story and every dish is crafted to perfection.
+                    </p>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Product</h4>
+                <ul class="footer-links">
+                  <li><a href="#">Menu</a></li>
+                  <li><a href="#">Specials</a></li>
+                  <li><a href="#">Meal Deals</a></li>
+                  <li><a href="#">Catering Options</a></li>
+                  <li><a href="#">Seasonal Offerings</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Information</h4>
+                <ul class="footer-links">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Nutrition Information</a></li>
+                  <li><a href="#">Allergen Information</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul class="footer-links">
+                  <li><a href="#">Our Story</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Terms of Service</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bar">
+            Copyright © 2024 Food Hub. All rights reserved.
+        </div>
+        <div class="footer-topicon">
+            <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
